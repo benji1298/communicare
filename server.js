@@ -6,9 +6,9 @@ var server = deployd({
   port: process.env.PORT || 5000,
   env: 'production',
   db: {
-    host: '127.0.0.1',
-    port: 27857,
-    name: 'communicare',
+    host: 'ds145667.mlab.com',
+    port: 45667,
+    name: 'heroku_j3wd1hj0',
     credentials: {
       username: 'hacker',
       password: 'hack2016'
