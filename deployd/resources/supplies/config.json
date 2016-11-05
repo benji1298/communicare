@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 0
+		},
+		"stock": {
+			"name": "stock",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "stock",
+			"order": 1
+		},
+		"requests": {
+			"name": "requests",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "requests",
+			"order": 2
+		},
+		"locations": {
+			"name": "locations",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "locations",
+			"order": 3
+		}
+	}
+}
